@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" href="images/html-logo.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <title>My Portfolio</title>
+</head>
+
+<body>
+ <!-- NAVBAR-->
+<nav>
+    <div class="left">
+        <a href="/">Treasure Jachike</a>
+    </div>
+       
+    <div class="right">
+         <a href="https://www.instagram.com/jachike007?igsh=ZGVqNXlrcmR6ZDY2&utm_source=qr" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+            <span>instagram</span>
+         </a>
+
+         <a href="https://www.linkedin.com/in/treasure-jachike-4ab12a223" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>linkedin</span>
+         </a>
+         
+         <a href="https://wa.link/yna8x3" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>whatsapp></span>
+         </a>
+
+         <a href="mailto:jachiketreasure@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+         </a>    
+    </div>
+</nav>
+<main>
+    <!--SECTION 1:Hero -->
+    <section class="hero-section">
+        <div class="text">
+            <h2> Hi, I'm Treasure</h2>
+            <p>I am a dedicated and detail-oriented Computer science student with a passion to acquire tech skills, proficient in HTML, CSS, and JavaScript, with a strong drive to deliver high quality solutions. I am currently pursuing a Bachelor's Degree in Computer Science with a keen interest in leveraging technology to create innovative and user friendly web applications.</p>
+
+            <div class="link">
+                <a href="#Skills">
+                 <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+
+                <a href="#Testimony">
+                 <i class="fa-solid fa-pen"></i>
+                    <span>Testimony</span>
+                </a>
+            
+                <a href="#Contact">
+                    <i class="fa-solid fa-address-card"></i>
+                    <span>Contact</span>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="headshot">
+            <img src="images/hero-headshot.jpg" alt="Treasure Jachike headshot">
+        </div>
+    </section>
+
+    <!--SECTION 2:Skills-->
+    <section id="Skills" class="skills-section"> 
+        <h2>Skills</h2>
+        <div class="text">
+            I posses strong foundational skills in web development, with proficiency in HTML, CSS, React.Js and JavaScript, coupled with a keen attention to detail, a passion for continuous learning, and the ability to develop innovative and user friendly web applications that align with modern best practices.
+        </div>
+
+        <div class="cells">
+  <div class="cell">
+    <img src="images/html-logo.jpg" alt="html-logo">
+    <span>HTML</span>
+  </div>
+  <div class="cell">
+    <img src="images/css-logo.jpg" alt="css-logo">
+    <span>CSS</span>
+  </div>
+  <div class="cell">
+    <img src="images/javascript-logo.jpg" alt="javascript-logo">
+    <span>JavaScript</span>
+  </div>
+  <div class="cell">
+    <img src="images/react-logo.jpg" alt="react-logo">
+    <span>React.Js</span>
+  </div>
+</div>
+    </section>
+
+    <!--SECTION 3:Testimony-->
+    <section id="Testimony" class="testimony-section">
+        <h2>Testimony</h2>
+
+        <div class="group">
+            <div class="person-details">
+                <img src="images/testimony-Headshot.jpg" alt="OLUWOLE IFEOLUWA Headshot">
+                <p>OLUWOLE IFEOLUWA</p>
+                <p>Co-worker to Treasure</p>
+            </div>
+            
+
+
+            <div class="text"></div>
+           “Treasure Jachike is a highly driven and detail oriented individual with a strong passion for technology and continuous learning. Throughout our time working together, I was impressed by his ability to grasp technical concepts quickly and apply them in real world scenarios. Whether it was setting up and configuring hardware, building responsive websites with HTML, CSS, and JavaScript, or exploring modern development practices like CI/CD and infrastructure as code, Treasure consistently demonstrated a growth mindset and a commitment to excellence. He is not just technically capable, he is also a reliable team player with a positive attitude and a clear vision for where he is headed in the tech industry.”
+        </div>
+
+    </section>
+
+    <!--SECTION 4:Contact-->
+    <section id="Contact" class="contact-section">
+        <h2>Contact</h2>
+
+       <div class="group">
+       <div class="text">
+        Please fill out the form below to contact me, Enter your name, Provide your email address. Type your message in the box, let me know what you would like me to help you with
+
+I will get back to you as soon as possible!
+       </div>
+       
+
+       <form>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+
+        <label for="email">Email</label>
+        <input type="text" id="email">
+
+        <label for="message">Message</label>
+      <textarea name="text" id="Message" cols="30" rows="10"></textarea>
+      <button type="submit">Send Message</button>
+
+       </form>
+       </div>
+    </section>
+</main>
+</body>
+</html>
